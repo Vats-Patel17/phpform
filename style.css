@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+.container{
+    width: 100%;
+    background-color: rgb(170, 95, 240);
+    padding: 34px;
+    margin: auto;
+    height: auto;
+}
+.container h3,p{
+    text-align:center;
+}
+
+input{
+    border: 2px solid black;
+    height: auto;
+    width: 70%;
+    margin: 10px;
+    padding: 3px;
+    align-self: center;
+}
+
+button{
+    background-color: rgb(190, 123, 253);
+    margin: 10px;
+    padding: 3px;
+    cursor: pointer;
+    height: auto;
+    width: 10%;
+    align-self: center;
+    }
+
+form{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
